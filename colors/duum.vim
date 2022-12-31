@@ -366,8 +366,8 @@ call s:_('Delimiter',            s:orange,  '',        'none')
 call s:_('DelimiterAlt',         s:green_alt, '',    'none')
 call s:_('SpecialChar',          s:base8, '',        'bold')
 
-call s:_('String',               s:green, '',        'none')
-call s:_('StringDelimiter',      s:green, '',        'none')
+call s:_('String',               s:violet, '',        'none')
+call s:_('StringDelimiter',      s:violet, '',        'none')
 
 call s:_('Character',            s:green, '',        'bold')
 
