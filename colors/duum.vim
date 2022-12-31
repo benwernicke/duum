@@ -390,11 +390,11 @@ call s:_('Property',             s:fg, '',        'none')
 
 
 call s:_('Type',                 s:cyan, '',        'none')
-call s:_('TypeBuiltin',          s:yellow, '',        'bold')
+call s:_('TypeBuiltin',          s:cyan, '',        'bold')
 call s:_('StorageClass',         s:yellow, '',        'none')
 call s:_('Class',                s:cyan, '',        'none')
 call s:_('Structure',            s:cyan, '',        'none')
-call s:_('Typedef',              s:cyan, '',        'none')
+call s:_('Typedef',              s:yellow, '',        'none')
 
 call s:_('Regexp',               '#dd0093', 'none',        'none')
 call s:_('RegexpSpecial',        '#a40073', 'none',        'none')
