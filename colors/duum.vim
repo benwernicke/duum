@@ -66,8 +66,8 @@ let s:base9      = '#E6E6E6'
 
 let s:grey       = s:base4
 let s:red        = '#ff6c6b'
-let s:orange     = '#da8548'
-"let s:green      = '#98be65'
+"let s:orange     = '#da8548'
+let s:orange     = '#ff950c'
 let s:green      = '#34ed37'
 let s:teal       = '#4db5bd'
 let s:yellow     = '#ECBE7B'
