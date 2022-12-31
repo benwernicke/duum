@@ -53,7 +53,8 @@ endfunc
 " }}}
 " Colors                                                                     {{{
 
-let s:base0      = '#1B2229'
+"let s:base0      = '#1B2229'
+let s:base0      = '#FF0000'
 let s:base1      = '#1c1f24'
 let s:base2      = '#202328'
 let s:base3      = '#23272e'
@@ -66,7 +67,6 @@ let s:base9      = '#E6E6E6'
 
 let s:grey       = s:base4
 let s:red        = '#ff6c6b'
-"let s:orange     = '#da8548'
 let s:orange     = '#ff950c'
 let s:green      = '#34ed37'
 let s:teal       = '#4db5bd'
@@ -78,7 +78,6 @@ let s:violet     = '#a9a1e1'
 let s:cyan       = '#46D9FF'
 let s:dark_cyan  = '#5699AF'
 let s:white      = '#efefef'
-
 let s:green_alt  = '#799033'
 
 let s:magenta4 = color#Darken(s:magenta, 0.0)
