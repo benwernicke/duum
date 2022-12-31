@@ -360,7 +360,8 @@ call s:_('Float',                s:orange, '',        'none')
 call s:_('Boolean',              s:orange, '',        'none')
 call s:_('Enum',                 s:orange, '',        'none')
 
-call s:_('Delimiter',            s:blue,  '',        'none')
+"call s:_('Delimiter',            s:blue,  '',        'none')
+call s:_('Delimiter',            s:orange,  '',        'none')
 call s:_('DelimiterAlt',         s:green_alt, '',    'none')
 call s:_('SpecialChar',          s:base8, '',        'bold')
 
