@@ -91,7 +91,8 @@ let s:bg_visual      = color#Lighten(s:base4, 0.3)
 let s:bg_selection   = s:dark_blue
 let s:bg_highlighted = '#4A4A45'
 
-let s:fg           = '#bbc2cf'
+"let s:fg           = '#bbc2cf'
+let s:fg           = '#ccd3df'
 let s:fg_alt       = '#5B6268'
 let s:fg_popup     = '#D1D6DF'
 let s:fg_widget    = s:fg
@@ -390,7 +391,7 @@ call s:_('Type',                 s:blue, '',        'none')
 call s:_('TypeBuiltin',          s:blue, '',        'bold')
 call s:_('StorageClass',         s:yellow, '',        'none')
 call s:_('Class',                s:yellow, '',        'none')
-call s:_('Structure',            s:yellow, '',        'none')
+call s:_('Structure',            s:blue, '',        'none')
 call s:_('Typedef',              s:yellow, '',        'none')
 
 call s:_('Regexp',               '#dd0093', 'none',        'none')
