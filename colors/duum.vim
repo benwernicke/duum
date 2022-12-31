@@ -343,7 +343,7 @@ call s:_('Keyword',              s:yellow, '',        '')
 call s:_('Statement',            s:blue, '',        'none')
 call s:_('Label',                s:blue, '',        '')
 
-call s:_('Operator',             s:blue, '',        '')
+call s:_('Operator',             s:magenta, '',        '')
 
 call s:_('Constant',             s:violet, '',        'bold')
 call s:_('ConstBuiltin',         s:magenta, '',       'bold')
