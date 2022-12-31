@@ -53,9 +53,9 @@ endfunc
 " }}}
 " Colors                                                                     {{{
 
-"let s:base0      = '#1B2229'
-let s:base0      = '#FF0000'
-let s:base1      = '#1c1f24'
+let s:base0      = '#1B2229'
+"let s:base1      = '#1c1f24'
+let s:base1      = '#ff0000'
 let s:base2      = '#202328'
 let s:base3      = '#23272e'
 let s:base4      = '#3f444a'
