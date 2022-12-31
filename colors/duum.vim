@@ -4,7 +4,7 @@ if &background != 'dark'
   set background=dark
 end
 
-let colors_name = 'doom-one'
+let colors_name = 'duum'
 
 " Highlighting function {{{
 function! s:_ (name, ...)
@@ -224,7 +224,7 @@ call s:_('BufferOffset',         s:base6,          s:bg,          'bold')
 
 call s:_('BufferPart',        s:diff_info_fg,   s:diff_info_bg0, 'bold')
 
-if has("nvim") && get(g:, 'doom_one_terminal_colors', v:false)
+if has("nvim") && get(g:, 'duum_terminal_colors', v:false)
   let g:terminal_color_0 = s:bg
   let g:terminal_color_1 = s:red
   let g:terminal_color_2 = s:green_alt
