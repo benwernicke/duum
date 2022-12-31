@@ -340,7 +340,7 @@ call s:_('Define',               s:blue, '',           'bold')
 call s:_('PreCondit',            s:magenta, '',        'bold')
 call s:_('Include',              s:blue, '',           'bold')
 
-call s:_('Repeat',               s:blue, '',        '')
+call s:_('Repeat',               s:yellow, '',        '')
 call s:_('Keyword',              s:yellow, '',        '')
 call s:_('Statement',            s:yellow, '',        'none')
 call s:_('Label',                s:yellow, '',        '')
