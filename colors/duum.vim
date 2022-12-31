@@ -385,7 +385,7 @@ call s:_('Control',              s:magenta4, '',        'none')
 call s:_('PredefinedIdentifier', s:magenta4, '',        'none')
 call s:_('Predefined',           s:magenta4, '',        'none')
 
-call s:_('StaticFunc',           s:cyan, '',        'none')
+call s:_('StaticFunc',           s:yellow, '',        'none')
 call s:_('Property',             s:fg, '',        'none')
 
 
