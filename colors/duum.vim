@@ -96,7 +96,8 @@ let s:bg_selection   = s:dark_blue
 let s:bg_highlighted = '#4A4A45'
 
 "let s:fg           = '#bbc2cf'
-let s:fg           = '#ccd3df'
+"let s:fg           = '#ccd3df'
+let s:fg           = '#eeeeee'
 let s:fg_alt       = '#5B6268'
 let s:fg_popup     = '#D1D6DF'
 let s:fg_widget    = s:fg
