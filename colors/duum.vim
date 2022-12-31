@@ -373,9 +373,11 @@ call s:_('Argument',             s:magenta4, '',        'none')
 call s:_('Variable',             s:magenta4, '',        'none')
 call s:_('VariableBuiltin',      s:violet, '',          'bold')
 
-call s:_('Function',             s:yellow, '',        'none')
+"call s:_('Function',             s:yellow, '',        'none')
+call s:_('Function',             s:green, '',        'none')
 call s:_('FunctionBuiltin',      s:orange, '',        'bold')
-call s:_('Method',               s:yellow, '',        'none')
+"call s:_('Method',               s:yellow, '',        'none')
+call s:_('Method',               s:green, '',        'none')
 
 call s:_('Symbol',               s:magenta4, '',        'none')
 call s:_('Control',              s:magenta4, '',        'none')
