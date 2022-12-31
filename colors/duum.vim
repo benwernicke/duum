@@ -370,7 +370,7 @@ call s:_('SpecialBold',          s:violet, '',        'bold')
 
 
 call s:_('Identifier',           s:magenta4, '',        'none')
-call s:_('Argument',             s:magenta4, '',        'none')
+call s:_('Argument',             s:fg, '',        'none')
 call s:_('Variable',             s:magenta4, '',        'none')
 call s:_('VariableBuiltin',      s:violet, '',          'bold')
 
