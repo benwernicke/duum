@@ -342,7 +342,7 @@ call s:_('Include',              s:blue, '',           'bold')
 
 call s:_('Repeat',               s:blue, '',        '')
 call s:_('Keyword',              s:yellow, '',        '')
-call s:_('Statement',            s:blue, '',        'none')
+call s:_('Statement',            s:yellow, '',        'none')
 call s:_('Label',                s:yellow, '',        '')
 
 call s:_('Operator',             s:magenta, '',        '')
