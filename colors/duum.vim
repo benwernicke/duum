@@ -73,12 +73,8 @@ let s:yellow     = '#fcdc00'
 let s:blue       = '#00c2ff'
 let s:dark_blue  = '#2257A0'
 let s:magenta    = '#fc46ed'
-"let s:violet     = '#a003ee'
 let s:violet     = '#bb62eb'
-"let s:cyan       = '#46D9FF'
 let s:cyan       = '#33dce7'
-"let s:cyan       = '#3efff1'
-"
 
 let s:dark_cyan  = '#5699AF'
 let s:white      = '#efefef'
@@ -347,7 +343,7 @@ call s:_('Include',              s:blue, '',           'bold')
 call s:_('Repeat',               s:blue, '',        '')
 call s:_('Keyword',              s:yellow, '',        '')
 call s:_('Statement',            s:blue, '',        'none')
-call s:_('Label',                s:blue, '',        '')
+call s:_('Label',                s:yellow, '',        '')
 
 call s:_('Operator',             s:magenta, '',        '')
 
@@ -361,7 +357,6 @@ call s:_('Float',                s:orange, '',        'none')
 call s:_('Boolean',              s:orange, '',        'none')
 call s:_('Enum',                 s:orange, '',        'none')
 
-"call s:_('Delimiter',            s:blue,  '',        'none')
 call s:_('Delimiter',            s:orange,  '',        'none')
 call s:_('DelimiterAlt',         s:green_alt, '',    'none')
 call s:_('SpecialChar',          s:base8, '',        'bold')
@@ -382,7 +377,7 @@ call s:_('Variable',             s:magenta4, '',        'none')
 call s:_('VariableBuiltin',      s:violet, '',          'bold')
 
 call s:_('Function',             s:green, '',        'none')
-call s:_('FunctionBuiltin',      s:orange, '',        'bold')
+call s:_('FunctionBuiltin',      s:green, '',        'bold')
 call s:_('Method',               s:green, '',        'none')
 
 call s:_('Symbol',               s:magenta4, '',        'none')
@@ -391,7 +386,6 @@ call s:_('PredefinedIdentifier', s:magenta4, '',        'none')
 call s:_('Predefined',           s:magenta4, '',        'none')
 
 call s:_('StaticFunc',           s:cyan, '',        'none')
-"call s:_('Property',             s:magenta4, '',        'none')
 call s:_('Property',             s:fg, '',        'none')
 
 
