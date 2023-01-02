@@ -350,7 +350,7 @@ call s:_('Operator',             s:magenta, '',        '')
 call s:_('Constant',             s:violet, '',        'bold')
 call s:_('ConstBuiltin',         s:magenta, '',       'bold')
 
-call s:_('Conditional',          s:blue, '',        '')
+call s:_('Conditional',          s:yellow, '',        '')
 
 call s:_('Number',               s:orange, '',        'none')
 call s:_('Float',                s:orange, '',        'none')
