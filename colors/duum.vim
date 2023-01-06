@@ -84,15 +84,14 @@ let s:magenta4 = color#Darken(s:magenta, 0.0)
 
 let s:bg             = '#282c34'
 let s:bg_alt         = '#21242b'
-"let s:bg_highlight   = '#2E323C'
-let s:bg_highlight   = s:magenta
+let s:bg_highlight   = '#2E323C'
 let s:bg_popup       = '#3E4556'
 let s:bg_widget      = s:bg
 let s:bg_statusline  = s:bg_popup
-let s:bg_visual      = color#Lighten(s:base4, 0.3)
+"let s:bg_visual      = color#Lighten(s:base4, 0.3)
+let s:bg_visual      = s:magenta
 let s:bg_selection   = s:dark_blue
-"let s:bg_highlighted = '#4A4A45'
-let s:bg_highlighted = s:magenta
+let s:bg_highlighted = '#4A4A45'
 
 let s:fg           = '#eeeeee'
 let s:fg_alt       = '#5B6268'
