@@ -89,7 +89,7 @@ let s:bg_popup       = '#3E4556'
 let s:bg_widget      = s:bg
 let s:bg_statusline  = s:bg_popup
 "let s:bg_visual      = color#Lighten(s:base4, 0.3)
-let s:bg_visual      = s:violet
+let s:bg_visual      = s:dark_blue
 let s:bg_selection   = s:dark_blue
 let s:bg_highlighted = '#4A4A45'
 
