@@ -84,7 +84,8 @@ let s:magenta4 = color#Darken(s:magenta, 0.0)
 
 let s:bg             = '#282c34'
 let s:bg_alt         = '#21242b'
-let s:bg_highlight   = '#2E323C'
+"let s:bg_highlight   = '#2E323C'
+let s:bg_highlight   = 'magenta'
 let s:bg_popup       = '#3E4556'
 let s:bg_widget      = s:bg
 let s:bg_statusline  = s:bg_popup
