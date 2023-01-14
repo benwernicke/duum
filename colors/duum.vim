@@ -65,6 +65,7 @@ let s:base8      = '#b1b1b1'
 let s:base9      = '#E6E6E6'
 
 let s:grey       = s:base4
+
 "let s:red        = '#ff6c6b'
 "let s:orange     = '#ff5800'
 "let s:green      = '#34ed37'
@@ -84,7 +85,7 @@ let s:yellow     = '#e9f26c'
 let s:blue       = '#6dc4f2'
 let s:dark_blue  = '#6dc4f2'
 let s:magenta    = '#ea7bf4'
-let s:violet     = '#864d8d'
+let s:violet     = '#bb62eb'
 let s:cyan       = '#8ee7ee'
 
 let s:dark_cyan  = '#5699AF'
